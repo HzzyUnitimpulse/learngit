@@ -10,6 +10,7 @@ $ cat readme.txt %%to see the context
 $ git log %% history
 $ git reset hard HEAD^ %% ^, ^^ means iterations of retreat back. if for 100 times Head~100
 $ git reset hard #####
+$ git reflog %% retreat back to history to see the commit id
 
 
 Git is a distributed version control system.
