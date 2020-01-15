@@ -13,8 +13,8 @@ $ git reset hard #####
 $ git reflog %% retreat back to history to see the commit id
 **It's important to understand the concept of : working directory,  temporary stage, respiratory.
 $ git diff HEAD -- readme.txt  %% to see the difference between the file in workspace and master
-$ git checkout -- filename %% change workspace back to what in temporary stage.
-
+$ git checkout -- filename %%discard changes in working directory,扰乱了工作区某个文件的内容时
+$ git reset HEAD<file> %% unstage，扰乱了工作文件的内容，还添加到了stage时，先reset, 再checkout
  
 Git is a distributed version control system.
 Git is free software distributed under GPL.
