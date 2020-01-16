@@ -24,7 +24,7 @@ Git tracks changes for files.
 <<<<<<< HEAD
  Creating a new branch is quick and simple.
 =======
- Creating a new branch is quick and simple.
+ Creating a new branch is quick & simple.
 >>>>>>> feature1
 
 1.#creat new "dev" branch
